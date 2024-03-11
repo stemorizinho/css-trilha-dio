@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    align-items: center;
+    
+}
+
+/*Elementos de textos*/
+h1{
+    width: 434px;
+    height: 47px;
+    font-size: 40px;
+    text-transform: uppercase;
+    line-height: 46.96px;
+    color: #33A8D8;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    margin-left: 7.5%;
+}
+
+h1+p{
+    display: flex;
+    text-align: center;
+    width: 510px;
+    height: 46px;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.48px;
+    margin-top: 9px;
+    margin-bottom: 9px;
+}
+
+h2{
+    width: 792px;
+    height: 76px;
+    text-transform: uppercase;
+    color: #33A8D8;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 37.57px;
+    letter-spacing: 2px;
+    padding-top: 76px;
+    padding-bottom: 32px;
+    text-align: center;
+}
+
+
+
+h2+p{
+    width: 792px;
+    height: 76px;
+    padding: 8px;
+    text-align: center;
+}
+
+img + p{
+    width: 792px;
+    height: 38px;
+    color: #ffffff;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+    color: #33A8D8;
+}
+
+/*Elementos de texto*/
+
+/*Estruturas*/
+
+header{
+    display: flex;
+    background-image: url(assets/images/banner.png), linear-gradient(rgba(0, 0, 0, 0.3), rgba(49, 168, 221, 0.3));
+    background-color: black;
+    justify-content: center;
+}
+
+body{
+    background-image: url(assets/images/woman-code.png);
+    background-color: black;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 1500px;
+    height: 960px;
+    background-size: cover;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    height: 170px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(49, 168, 221, 0.3));
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+/*Estruturas*/
+
+/*Classes*/
+
+.logo{
+    width: 248px;
+    height: 214px;
+    margin-left: 24.5%;
+}
+
+.module{
+    display: block;
+    width: 540px;
+    height: 19px;
+    border: 1px;
+    border-style: solid;
+    margin: 25px;
+    border-radius: 2rem;
+    border-width: fixed(535px);
+    border-color: #33A8D8;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    background: rgb(2,7,14);
+    background: linear-gradient(174deg, rgba(2,7,14,1) 1%, rgba(31,32,34,1) 5%);
+ }
+
+/*Classes*/
+
+/*Elementos*/
+
+button{
+    width: 234px;
+    height: 47px;
+    font-size: 16px;
+    font-weight: 900;
+    line-height: 18.78px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #33A8DD;
+    background-color: transparent;
+    border-color: #33A8D8;
+    margin-top: 45px;
+    margin-bottom: 15px;
+    margin-left: 27%;
+    display: flex;
+    justify-content: center;
+}
+
+span{
+    color: #33A8D8;
+}
+
+/*Elementos*/
+
+/*IDs*/
+
+#course-content{
+   display: flex;
+   flex-direction: column;
+   background-color: black;
+   color: white;
+   border-bottom: 1px solid #33A8DB;
+   justify-content: center;
+   align-items: center;
+   
+}
+
+
+#transform-world{
+    width: 244px;
+    height: 141px;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 46.96px;
+    padding: 76px;
+    text-transform: lowercase;
+    color: white;
+    text-decoration: #33A8D8;
+    text-shadow: 0.2rem 0.2rem 0.05rem #33A8DB;
+
+}
+
+#professional-challenges{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: #ffffff;
+    border-top: 1px solid #33A8D8;
+    border-bottom: 1px solid #33A8DB;
+    align-items: center;
+    padding: 50px;
+    
+}
+
+/*IDs*/
+
+
+
+
+
